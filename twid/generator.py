@@ -50,3 +50,6 @@ def female():
 
 def male():
     return random(gender="male")
+
+def kaohsiung():
+    return random(location="E")

@@ -4,6 +4,7 @@ from generator import (
     random,
     female,
     male,
+    kaohsiung,
 )
 
 __author__ = "Plenty Su <plenty.su@gmail.com>"
