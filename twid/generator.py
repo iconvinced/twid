@@ -45,3 +45,8 @@ def random(location=None, gender=None):
 
     return "".join([location, gender] + [str(x) for x in third_to_ninth] + [str(tenth)])
 
+def female():
+    return random(gender="female")
+
+def male():
+    return random(gender="male")
