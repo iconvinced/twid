@@ -45,11 +45,11 @@ def random(location=None, gender=None):
 
     return "".join([location, gender] + [str(x) for x in third_to_ninth] + [str(tenth)])
 
-def female():
-    return random(gender="2")
+def female(id_=None):
+    return random(gender="2") if id_ is None else random(location=id_[0], gender="2")
 
-def male():
-    return random(gender="1")
+def male(id_=None):
+    return random(gender="1") if id_ is None else random(location=id_[0], gender="1")
 
-def kaohsiung():
-    return random(location="E")
+def kaohsiung(id_=None):
+    return random(location="E") if id_ is None else random(location="E", gender=id_[1])
