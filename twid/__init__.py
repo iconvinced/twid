@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from generator import (
+from .generator import (
     random,
     female,
     male,
