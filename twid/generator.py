@@ -28,8 +28,8 @@ location_ = {
 }
 
 gender_ = {
-    "male": "1",
-    "female": "2",
+    "1": "1", # male
+    "2": "2", # female
 }
 
 def random(location=None, gender=None):
@@ -46,10 +46,10 @@ def random(location=None, gender=None):
     return "".join([location, gender] + [str(x) for x in third_to_ninth] + [str(tenth)])
 
 def female():
-    return random(gender="female")
+    return random(gender="2")
 
 def male():
-    return random(gender="male")
+    return random(gender="1")
 
 def kaohsiung():
     return random(location="E")
