@@ -5,10 +5,10 @@ Quick Start
 ^^^^^^^^^^^
 ::
 
- >>> import twid
- >>> twid.female()
- 'C290074048'
- >> twid.kaohsiung()
- 'E278429854'
- >>> twid.kaohsiung(twid.male())
- 'E104149003'
+ >>> from twid import female, male, kaohsiung
+ >>> female()
+ 'X249592708'
+ >>> kaohsiung()
+ 'E168646609'
+ >>> kaohsiung(male())
+ 'E167853593'
