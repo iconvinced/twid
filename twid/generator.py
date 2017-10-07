@@ -60,6 +60,10 @@ location_ = {
     "kinmen": "W",
     "penghu": "X",
     "lienchiang": "Z",
+    # "taichung_county": "L",
+    # "tainan_county": "R",
+    # "kaohsiung_county": "S",
+    # "yangming_moutain": 'Y",
 }
 
 def random(location=None, gender=None):
